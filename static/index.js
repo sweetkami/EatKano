@@ -411,17 +411,17 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         }
 
         if (mode === MODE_ENDLESS) {
-            if (score <= 5) return '试着好好练一下？';
-            if (score <= 8) return 'TCL';
-            if (score <= 10)  return 'TQL';
-            if (score <= 15) return '您';
-            return '人？';
+            if (score <= 5) return '我草拟大坝';
+            if (score <= 8) return 'Niiiiiiiice';
+            if (score <= 10)  return '卡其脱离太';
+            if (score <= 15) return '压力马斯内（赞赏）';
+            return '亚拉那一卡？';
         } else {
-            if (score <= 49) return '试着好好练一下？';
-            if (score <= 99) return 'TCL';
-            if (score <= 149) return 'TQL';
-            if (score <= 199) return '您';
-            return '人？';
+            if (score <= 49) return '我草拟大坝';
+            if (score <= 99) return 'Niiiiiiiice';
+            if (score <= 149) return '卡其脱离太';
+            if (score <= 199) return '压力马斯内（赞赏）';
+            return '亚拉那一卡？';
         }
     }
 
